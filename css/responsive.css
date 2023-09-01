@@ -1,0 +1,157 @@
+@media  (max-width:1100px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        height: 300px;
+        transition: all 0.5s ease-out;
+    }
+    .navbar ul{
+        flex-direction: column;
+    }
+    .navbar ul li{
+        margin: 7px;
+        text-align: center;
+    }
+    .navbar .search{
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        margin: 7px;
+        margin-left: 50px;
+    }
+    .search-i{
+        position: absolute;
+        left: -50px;
+        width: 180%;
+    }
+    .search-b{
+        position: relative;
+        top: 50px;
+    }
+    .burger{
+        position: absolute;
+        top: 30px;
+        cursor: pointer;
+        display: block;
+        right: 20px;
+    }
+    .burger .line{
+        width: 33px;
+        background-color: white;
+        height: 4px;
+        margin: 5px;
+    }
+    .h-nev{
+        height: 80px;
+    }
+    .v-nev{
+        visibility: hidden;
+    }
+    section{
+        height: 500px;
+    }
+    .left .tx-big{
+        font-size: 20px;
+    }
+    .right img{
+        width: 200px;
+    }
+    .left .tx-small{
+        font-size: 15px;
+    }
+    .blog p{
+        font-size: 14px;
+    }
+}
+@media (max-width:800px) {
+    section{
+        .left .tx-small{
+            font-size: 10px;
+        }
+        .blog p{
+            font-size: 4px;
+        }
+    }
+    .blue{
+        font-size: 12px;
+    }
+    .service img{
+        height: 100px;
+        width: 125px;
+    }
+    .center h1{
+        font-size: 30px;
+    }
+}
+@media (max-width:600px) {
+    .right img{
+        width: 150px;
+    }
+    .blog{
+        flex-direction: column;
+    }    
+    .blog img{
+        width: 50%;
+    }
+    .blue{
+        font-size: 10px;
+    }
+    .service img{
+        height: 70px;
+        width: 100px;
+    }
+    .service h1{
+        font-size: 20px;
+    }
+    .service p{
+        font-size: 11px;
+    }
+}
+@media (max-width:470px) {
+    section{
+        height: 600px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+        padding-top: 100px;
+        justify-content: center;
+    }
+    .left{
+        position: absolute;
+        top: 300px;
+        left: 31%;
+    }
+    .right{
+        position: absolute;
+        top: 100px;
+        right: 29%;
+    }
+    .service img{
+        height: 50px;
+        width: 70px;
+    }
+    .service h1{
+        font-size: 16px;
+    }
+    .service p{
+        font-size: 8px;
+    }
+}
+@media (max-width:350px) {
+    .right{
+        left: 25%;
+    }
+    .service img{
+        height: 25px;
+        width: 30px;
+        margin: 5px;
+    }
+    .service h1{
+        font-size: 12px;
+    }
+    .service p{
+        font-size: 5px;
+    }
+}
